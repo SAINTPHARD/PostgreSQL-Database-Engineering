@@ -11,7 +11,7 @@ A arquitetura do projeto foi estruturada de forma profissional, separando a defi
 O projeto está organizado na seguinte árvore de diretórios:
 
 ```text
-PostgreSQL-Estudos/
+PostgreSQL-Estudos/Praticas
 │
 ├── README.md           # Documentação e guia do projeto
 │
@@ -24,4 +24,14 @@ PostgreSQL-Estudos/
 │   ├── update.sql      # Operações de Atualização / Modificação (DML - Update)
 │   └── delete.sql      # Operações de Exclusão / Remoção (DML - Delete)
 │
-└── imagens/            # Capturas de tela e evidências de execução das aulas
+└── imagens/            # Capturas de tela e evidências de execução das praticas
+
+
+# Praticas de PostgreSQL para Backend Java 🚀
+
+Este repositório contém scripts SQL focados em conceitos indispensáveis para desenvolvedores que utilizam ORMs como Hibernate e Spring Data JPA.
+
+## O que foi praticado:
+- Criação de relacionamentos Muitos-para-Muitos (`@ManyToMany`) via tabela associativa.
+- Comparações práticas entre `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN` e `CROSS JOIN`.
+- Utilização de Constraints (`UNIQUE`, `PRIMARY KEY`, `FOREIGN KEY`).
